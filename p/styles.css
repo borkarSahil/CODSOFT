@@ -27,9 +27,6 @@ a,
 }
 
 /* DESKTOP NAV */
-/* #desktop-nav {
-box-shadow: 0.1px 0.3px rgba(0, 0, 0, .2);;
-} */
 
 nav,
 .nav-links {
@@ -152,9 +149,9 @@ a:hover {
 /* SECTIONS */
 
 section {
-    padding-top: 4vh;
+    padding-top: 2vh;
     /* height: 96vh; */
-    margin: 0px 10rem 0px 10rem;
+    margin:20px 5rem 20px 5rem;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -169,7 +166,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 50vh;
 }
 
 .section__pic-container {
@@ -177,7 +174,6 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
-    padding: 10px;
 }
 
 .section__text {
@@ -269,13 +265,17 @@ section {
 
 #about {
     position: relative;
-    margin-top: 0;
+}
+
+#about {
+    padding: 10px;
+    margin-top: 20px;
 }
 
 .about-containers {
     gap: 2rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .about-details-container {
@@ -310,11 +310,7 @@ section {
 
 .section-container {
     gap: 4rem;
-    /* height: 80%; */
-}
-
-.section-container p {
-    padding: 10px;
+    height: 80%;
 }
 
 .section__pic-container {
@@ -323,20 +319,22 @@ section {
     margin: auto 0;
 }
 
-/* skills SECTION */
 
-#skills {
+
+/* EXPERIENCE SECTION */
+
+#experience {
     position: relative;
 }
 
-.skills-sub-title {
+.experience-sub-title {
     color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
 }
 
-.skills-details-container {
+.experience-details-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -374,7 +372,7 @@ article .icon {
 }
 
 .project-img {
-    border-radius: 3px;
+    border-radius: 2rem;
     width: 90%;
     height: 90%;
 }
@@ -441,11 +439,12 @@ footer p {
 }
 
 
-/* Responsive */
+/* Res */
+
 @media screen and (max-width: 1400px) {
     #profile {
         height: 83vh;
-        margin-bottom: 6rem;
+        margin-bottom: 3rem;
     }
 
     .about-containers {
@@ -503,12 +502,12 @@ footer p {
 
 @media screen and (max-width: 600px) {
 
-    #contact {
-        height: 40vh;
-    }
+    /* #contact {
+        /* height: 40vh; */
+    /* }  */
 
     #profile {
-        height: 83vh;
+        height: 59vh;
         margin-bottom: 0;
     }
 
@@ -518,7 +517,7 @@ footer p {
 
     footer nav {
         /* height: fit-content; */
-        /* margin-bottom: 2rem; */
+        margin-bottom: 0;
     }
 
     .about-containers,
